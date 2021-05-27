@@ -220,6 +220,7 @@ My accepted leetcode solutions
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons)|24 ms|52.3 MB|15-06-2020|[java](code/312.burst-balloons.java)|
 |315|[Count Of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)|666 ms|41.9 MB|30-08-2020|[java](code/315.count-of-smaller-numbers-after-self.java)|
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters)|3 ms|38.9 MB|11-10-2020|[java](code/316.remove-duplicate-letters.java)|
+|318|[Maximum Product Of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)|24 ms|39 MB|27-05-2021|[java](code/318.maximum-product-of-word-lengths.java)|
 |322|[Coin Change](https://leetcode.com/problems/coin-change)|53 ms|52.5 MB|22-09-2020|[java](code/322.coin-change.java)|
 |326|[Power Of Three](https://leetcode.com/problems/power-of-three)|10 ms|38.8 MB|27-04-2021|[java](code/326.power-of-three.java)|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|1 ms|42.1 MB|16-05-2020|[java](code/328.odd-even-linked-list.java)|
@@ -639,6 +640,8 @@ My accepted leetcode solutions
 |1769|[Minimum Number Of Operations To Move All Balls To Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box)|202 ms|258.5 MB|31-01-2021|[java](code/1769.minimum-number-of-operations-to-move-all-balls-to-each-box.java)|
 |1773|[Count Items Matching A Rule](https://leetcode.com/problems/count-items-matching-a-rule)|4 ms|43.4 MB|28-02-2021|[java](code/1773.count-items-matching-a-rule.java)|
 |1774|[Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost)|4 ms|43.4 MB|28-02-2021|[java](code/1774.closest-dessert-cost.java)|
+|1818|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference)|117 ms|57.4 MB|27-05-2021|[java](code/1818.minimum-absolute-sum-difference.java)|
+|1823|[Find The Winner Of The Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game)|63 ms|38.4 MB|27-05-2021|[java](code/1823.find-the-winner-of-the-circular-game.java)|
 |1824|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps)|88 ms|114 MB|02-05-2021|[java](code/1824.minimum-sideway-jumps.java)|
 |1827|[Minimum Operations To Make The Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)|3 ms|36.1 MB|28-02-2021|[java](code/1827.minimum-operations-to-make-the-array-increasing.java)|
 |1828|[Queries On Number Of Points Inside A Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle)|3 ms|36.1 MB|28-02-2021|[java](code/1828.queries-on-number-of-points-inside-a-circle.java)|
@@ -650,6 +653,7 @@ My accepted leetcode solutions
 |1845|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager)|88 ms|114 MB|02-05-2021|[java](code/1845.seat-reservation-manager.java)|
 |1848|[Minimum Distance To The Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element)|1 ms|40.8 MB|02-05-2021|[java](code/1848.minimum-distance-to-the-target-element.java)|
 |1849|[Splitting A String Into Descending Consecutive Values](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values)|0 ms|37.2 MB|02-05-2021|[java](code/1849.splitting-a-string-into-descending-consecutive-values.java)|
+|1859|[Sorting The Sentence](https://leetcode.com/problems/sorting-the-sentence)|1 ms|37.1 MB|27-05-2021|[java](code/1859.sorting-the-sentence.java)|
 |1861|[Rotating The Box](https://leetcode.com/problems/rotating-the-box)|15 ms|75.3 MB|22-05-2021|[java](code/1861.rotating-the-box.java)|
 |1863|[Sum Of All Subset Xor Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)|0 ms|37.2 MB|02-05-2021|[java](code/1863.sum-of-all-subset-xor-totals.java)|
 |1864|[Minimum Number Of Swaps To Make The Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating)|5 ms|39 MB|16-05-2021|[java](code/1864.minimum-number-of-swaps-to-make-the-binary-string-alternating.java)|
