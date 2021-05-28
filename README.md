@@ -625,6 +625,7 @@ My accepted leetcode solutions
 |1680|[Concatenation Of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers)|606 ms|38.6 MB|27-01-2021|[java](code/1680.concatenation-of-consecutive-binary-numbers.java)|
 |1684|[Count The Number Of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)|5 ms|39.5 MB|19-02-2021|[java](code/1684.count-the-number-of-consistent-strings.java)|
 |1689|[Partitioning Into Minimum Number Of Deci Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers)|5 ms|39.3 MB|26-05-2021|[java](code/1689.partitioning-into-minimum-number-of-deci-binary-numbers.java)|
+|1695|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value)|6 ms|52.6 MB|28-05-2021|[java](code/1695.maximum-erasure-value.java)|
 |1704|[Determine If String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike)|2 ms|37.5 MB|07-04-2021|[java](code/1704.determine-if-string-halves-are-alike.java)|
 |1710|[Maximum Units On A Truck](https://leetcode.com/problems/maximum-units-on-a-truck)|7 ms|38.9 MB|10-02-2021|[java](code/1710.maximum-units-on-a-truck.java)|
 |1720|[Decode Xored Array](https://leetcode.com/problems/decode-xored-array)|2 ms|53.4 MB|01-02-2021|[java](code/1720.decode-xored-array.java)|
