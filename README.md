@@ -49,6 +49,7 @@ My accepted leetcode solutions
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|0 ms|39.6 MB|15-06-2020|[java](code/49.group-anagrams.java)|
 |50|[Powx N](https://leetcode.com/problems/powx-n)|0 ms|39.6 MB|15-06-2020|[java](code/50.powx-n.java)|
 |51|[N Queens](https://leetcode.com/problems/n-queens)|0 ms|39.6 MB|15-06-2020|[java](code/51.n-queens.java)|
+|52|[N Queens Ii](https://leetcode.com/problems/n-queens-ii)|2 ms|35.8 MB|29-05-2021|[java](code/52.n-queens-ii.java)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|1 ms|41.4 MB|02-05-2020|[java](code/53.maximum-subarray.java)|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|1 ms|41.4 MB|02-05-2020|[java](code/54.spiral-matrix.java)|
 |55|[Jump Game](https://leetcode.com/problems/jump-game)|1 ms|41.4 MB|02-05-2020|[java](code/55.jump-game.java)|
@@ -641,12 +642,15 @@ My accepted leetcode solutions
 |1769|[Minimum Number Of Operations To Move All Balls To Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box)|202 ms|258.5 MB|31-01-2021|[java](code/1769.minimum-number-of-operations-to-move-all-balls-to-each-box.java)|
 |1773|[Count Items Matching A Rule](https://leetcode.com/problems/count-items-matching-a-rule)|4 ms|43.4 MB|28-02-2021|[java](code/1773.count-items-matching-a-rule.java)|
 |1774|[Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost)|4 ms|43.4 MB|28-02-2021|[java](code/1774.closest-dessert-cost.java)|
+|1813|[Sentence Similarity Iii](https://leetcode.com/problems/sentence-similarity-iii)|1 ms|37.5 MB|29-05-2021|[java](code/1813.sentence-similarity-iii.java)|
 |1818|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference)|117 ms|57.4 MB|27-05-2021|[java](code/1818.minimum-absolute-sum-difference.java)|
 |1823|[Find The Winner Of The Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game)|63 ms|38.4 MB|27-05-2021|[java](code/1823.find-the-winner-of-the-circular-game.java)|
 |1824|[Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps)|88 ms|114 MB|02-05-2021|[java](code/1824.minimum-sideway-jumps.java)|
 |1827|[Minimum Operations To Make The Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)|3 ms|36.1 MB|28-02-2021|[java](code/1827.minimum-operations-to-make-the-array-increasing.java)|
 |1828|[Queries On Number Of Points Inside A Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle)|3 ms|36.1 MB|28-02-2021|[java](code/1828.queries-on-number-of-points-inside-a-circle.java)|
 |1829|[Maximum Xor For Each Query](https://leetcode.com/problems/maximum-xor-for-each-query)|6 ms|131.9 MB|17-04-2021|[java](code/1829.maximum-xor-for-each-query.java)|
+|1832|[Check If The Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram)|1 ms|37.2 MB|29-05-2021|[java](code/1832.check-if-the-sentence-is-pangram.java)|
+|1833|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars)|32 ms|55.8 MB|29-05-2021|[java](code/1833.maximum-ice-cream-bars.java)|
 |1834|[Single Threaded Cpu](https://leetcode.com/problems/single-threaded-cpu)|88 ms|114 MB|02-05-2021|[java](code/1834.single-threaded-cpu.java)|
 |1837|[Sum Of Digits In Base K](https://leetcode.com/problems/sum-of-digits-in-base-k)|88 ms|114 MB|02-05-2021|[java](code/1837.sum-of-digits-in-base-k.java)|
 |1838|[Frequency Of The Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element)|88 ms|114 MB|02-05-2021|[java](code/1838.frequency-of-the-most-frequent-element.java)|
