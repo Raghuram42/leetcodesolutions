@@ -666,3 +666,6 @@ My accepted leetcode solutions
 |1869|[Longer Contiguous Segments Of Ones Than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros)|5 ms|39 MB|16-05-2021|[java](code/1869.longer-contiguous-segments-of-ones-than-zeros.java)|
 |1870|[Minimum Speed To Arrive On Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time)|5 ms|39 MB|16-05-2021|[java](code/1870.minimum-speed-to-arrive-on-time.java)|
 |1871|[Jump Game Vii](https://leetcode.com/problems/jump-game-vii)|176 ms|67.2 MB|16-05-2021|[java](code/1871.jump-game-vii.java)|
+|1876|[Substrings Of Size Three With Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters)|2 ms|38.6 MB|29-05-2021|[java](code/1876.substrings-of-size-three-with-distinct-characters.java)|
+|1877|[Minimize Maximum Pair Sum In Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array)|74 ms|122.3 MB|29-05-2021|[java](code/1877.minimize-maximum-pair-sum-in-array.java)|
+|1879|[Minimum Xor Sum Of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays)|16 ms|42.5 MB|29-05-2021|[java](code/1879.minimum-xor-sum-of-two-arrays.java)|
