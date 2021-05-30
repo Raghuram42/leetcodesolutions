@@ -669,3 +669,6 @@ My accepted leetcode solutions
 |1876|[Substrings Of Size Three With Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters)|2 ms|38.6 MB|29-05-2021|[java](code/1876.substrings-of-size-three-with-distinct-characters.java)|
 |1877|[Minimize Maximum Pair Sum In Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array)|74 ms|122.3 MB|29-05-2021|[java](code/1877.minimize-maximum-pair-sum-in-array.java)|
 |1879|[Minimum Xor Sum Of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays)|16 ms|42.5 MB|29-05-2021|[java](code/1879.minimum-xor-sum-of-two-arrays.java)|
+|1880|[Check If Word Equals Summation Of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words)|177 ms|53.5 MB|23-05-2021|[java](code/1880.check-if-word-equals-summation-of-two-words.java)|
+|1881|[Maximum Value After Insertion](https://leetcode.com/problems/maximum-value-after-insertion)|177 ms|53.5 MB|23-05-2021|[java](code/1881.maximum-value-after-insertion.java)|
+|1882|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers)|177 ms|53.5 MB|23-05-2021|[java](code/1882.process-tasks-using-servers.java)|
