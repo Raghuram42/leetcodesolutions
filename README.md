@@ -527,6 +527,7 @@ My accepted leetcode solutions
 |1254|[Number Of Closed Islands](https://leetcode.com/problems/number-of-closed-islands)|3 ms|43.9 MB|09-01-2021|[java](code/1254.number-of-closed-islands.java)|
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points)|0 ms|39.3 MB|30-06-2020|[java](code/1266.minimum-time-visiting-all-points.java)|
 |1267|[Count Servers That Communicate](https://leetcode.com/problems/count-servers-that-communicate)|2 ms|45.7 MB|21-01-2021|[java](code/1267.count-servers-that-communicate.java)|
+|1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)|38 ms|44 MB|31-05-2021|[java](code/1268.search-suggestions-system.java)|
 |1277|[Count Square Submatrices With All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones)|5 ms|52.3 MB|21-05-2020|[java](code/1277.count-square-submatrices-with-all-ones.java)|
 |1281|[Subtract The Product And Sum Of Digits Of An Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer)|0 ms|36 MB|01-07-2020|[java](code/1281.subtract-the-product-and-sum-of-digits-of-an-integer.java)|
 |1283|[Find The Smallest Divisor Given A Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold)|12 ms|41.2 MB|06-11-2020|[java](code/1283.find-the-smallest-divisor-given-a-threshold.java)|
