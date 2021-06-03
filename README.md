@@ -382,6 +382,7 @@ My accepted leetcode solutions
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)|120 ms|43.5 MB|26-02-2021|[cpp](code/746.min-cost-climbing-stairs.cpp)|
 |754|[Reach A Number](https://leetcode.com/problems/reach-a-number)|120 ms|43.5 MB|26-02-2021|[cpp](code/754.reach-a-number.cpp)|
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels)|4 ms|38 MB|04-09-2020|[java](code/763.partition-labels.java)|
+|764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign)|199 ms|88.9 MB|03-06-2021|[java](code/764.largest-plus-sign.java)|
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string)|4 ms|38 MB|04-09-2020|[java](code/767.reorganize-string.java)|
 |771|[Jewels And Stones](https://leetcode.com/problems/jewels-and-stones)|4 ms|38 MB|04-09-2020|[java](code/771.jewels-and-stones.java)|
 |775|[Global And Local Inversions](https://leetcode.com/problems/global-and-local-inversions)|608 ms|39.4 MB|05-04-2021|[java](code/775.global-and-local-inversions.java)|
@@ -662,6 +663,7 @@ My accepted leetcode solutions
 |1845|[Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager)|88 ms|114 MB|02-05-2021|[java](code/1845.seat-reservation-manager.java)|
 |1848|[Minimum Distance To The Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element)|1 ms|40.8 MB|02-05-2021|[java](code/1848.minimum-distance-to-the-target-element.java)|
 |1849|[Splitting A String Into Descending Consecutive Values](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values)|0 ms|37.2 MB|02-05-2021|[java](code/1849.splitting-a-string-into-descending-consecutive-values.java)|
+|1854|[Maximum Population Year](https://leetcode.com/problems/maximum-population-year)|6 ms|38.7 MB|03-06-2021|[java](code/1854.maximum-population-year.java)|
 |1859|[Sorting The Sentence](https://leetcode.com/problems/sorting-the-sentence)|1 ms|37.1 MB|27-05-2021|[java](code/1859.sorting-the-sentence.java)|
 |1861|[Rotating The Box](https://leetcode.com/problems/rotating-the-box)|15 ms|75.3 MB|22-05-2021|[java](code/1861.rotating-the-box.java)|
 |1863|[Sum Of All Subset Xor Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)|0 ms|37.2 MB|02-05-2021|[java](code/1863.sum-of-all-subset-xor-totals.java)|
