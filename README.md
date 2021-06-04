@@ -65,6 +65,7 @@ My accepted leetcode solutions
 |65|[Valid Number](https://leetcode.com/problems/valid-number)|2 ms|38.4 MB|15-05-2021|[java](code/65.valid-number.java)|
 |66|[Plus One](https://leetcode.com/problems/plus-one)|0 ms|37.6 MB|06-07-2020|[java](code/66.plus-one.java)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary)|3 ms|38.1 MB|19-07-2020|[java](code/67.add-binary.java)|
+|68|[Text Justification](https://leetcode.com/problems/text-justification)|0 ms|39.3 MB|02-04-2021|[java](code/68.text-justification.java)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|0 ms|36.1 MB|31-07-2020|[java](code/70.climbing-stairs.java)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path)|3 ms|39.3 MB|05-02-2021|[java](code/71.simplify-path.java)|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance)|5 ms|39.6 MB|31-05-2020|[java](code/72.edit-distance.java)|
@@ -192,6 +193,7 @@ My accepted leetcode solutions
 |230|[Kth Smallest Element In A Bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|0 ms|42.6 MB|20-05-2020|[java](code/230.kth-smallest-element-in-a-bst.java)|
 |231|[Power Of Two](https://leetcode.com/problems/power-of-two)|1 ms|36.5 MB|08-06-2020|[java](code/231.power-of-two.java)|
 |232|[Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)|1 ms|36.5 MB|08-06-2020|[java](code/232.implement-queue-using-stacks.java)|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|0 ms|39.3 MB|02-04-2021|[java](code/234.palindrome-linked-list.java)|
 |236|[Lowest Common Ancestor Of A Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|4 ms|41.3 MB|03-03-2021|[java](code/236.lowest-common-ancestor-of-a-binary-tree.java)|
 |237|[Delete Node In A Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|0 ms|39.2 MB|02-06-2020|[java](code/237.delete-node-in-a-linked-list.java)|
 |238|[Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)|3 ms|47.2 MB|10-05-2020|[java](code/238.product-of-array-except-self.java)|
