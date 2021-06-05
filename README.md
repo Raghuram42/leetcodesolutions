@@ -80,6 +80,7 @@ My accepted leetcode solutions
 |82|[Remove Duplicates From Sorted List Ii](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|0 ms|38.5 MB|05-01-2021|[java](code/82.remove-duplicates-from-sorted-list-ii.java)|
 |83|[Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|0 ms|38.8 MB|22-04-2021|[java](code/83.remove-duplicates-from-sorted-list.java)|
 |84|[Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)|0 ms|38.8 MB|22-04-2021|[java](code/84.largest-rectangle-in-histogram.java)|
+|85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle)|10 ms|41.8 MB|05-06-2021|[java](code/85.maximal-rectangle.java)|
 |86|[Partition List](https://leetcode.com/problems/partition-list)|0 ms|38.8 MB|22-04-2021|[java](code/86.partition-list.java)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|0 ms|38.8 MB|22-04-2021|[java](code/88.merge-sorted-array.java)|
 |90|[Subsets Ii](https://leetcode.com/problems/subsets-ii)|0 ms|38.8 MB|22-04-2021|[java](code/90.subsets-ii.java)|
@@ -382,6 +383,7 @@ My accepted leetcode solutions
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time)|120 ms|43.5 MB|26-02-2021|[cpp](code/743.network-delay-time.cpp)|
 |745|[Prefix And Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search)|120 ms|43.5 MB|26-02-2021|[cpp](code/745.prefix-and-suffix-search.cpp)|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)|120 ms|43.5 MB|26-02-2021|[cpp](code/746.min-cost-climbing-stairs.cpp)|
+|752|[Open The Lock](https://leetcode.com/problems/open-the-lock)|1 ms|41 MB|14-09-2020|[java](code/752.open-the-lock.java)|
 |754|[Reach A Number](https://leetcode.com/problems/reach-a-number)|120 ms|43.5 MB|26-02-2021|[cpp](code/754.reach-a-number.cpp)|
 |763|[Partition Labels](https://leetcode.com/problems/partition-labels)|4 ms|38 MB|04-09-2020|[java](code/763.partition-labels.java)|
 |764|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign)|199 ms|88.9 MB|03-06-2021|[java](code/764.largest-plus-sign.java)|
@@ -567,6 +569,7 @@ My accepted leetcode solutions
 |1365|[How Many Numbers Are Smaller Than The Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number)|9 ms|39.4 MB|02-07-2020|[java](code/1365.how-many-numbers-are-smaller-than-the-current-number.java)|
 |1376|[Time Needed To Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees)|122 ms|57.5 MB|13-01-2021|[java](code/1376.time-needed-to-inform-all-employees.java)|
 |1379|[Find A Corresponding Node Of A Binary Tree In A Clone Of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)|0 ms|46.5 MB|02-01-2021|[java](code/1379.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.java)|
+|1383|[Maximum Performance Of A Team](https://leetcode.com/problems/maximum-performance-of-a-team)|76 ms|65.3 MB|05-06-2021|[java](code/1383.maximum-performance-of-a-team.java)|
 |1386|[Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation)|22 ms|46.9 MB|09-03-2021|[java](code/1386.cinema-seat-allocation.java)|
 |1387|[Sort Integers By The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value)|41 ms|38.8 MB|23-01-2021|[java](code/1387.sort-integers-by-the-power-value.java)|
 |1389|[Create Target Array In The Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order)|2 ms|40.3 MB|17-07-2020|[java](code/1389.create-target-array-in-the-given-order.java)|
