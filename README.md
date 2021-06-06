@@ -684,3 +684,7 @@ My accepted leetcode solutions
 |1881|[Maximum Value After Insertion](https://leetcode.com/problems/maximum-value-after-insertion)|177 ms|53.5 MB|23-05-2021|[java](code/1881.maximum-value-after-insertion.java)|
 |1882|[Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers)|177 ms|53.5 MB|23-05-2021|[java](code/1882.process-tasks-using-servers.java)|
 |1884|[Egg Drop With 2 Eggs And N Floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors)|0 ms|37.3 MB|30-05-2021|[java](code/1884.egg-drop-with-2-eggs-and-n-floors.java)|
+|1886|[Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation)|0 ms|38 MB|06-06-2021|[java](code/1886.determine-whether-matrix-can-be-obtained-by-rotation.java)|
+|1887|[Reduction Operations To Make The Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal)|0 ms|38 MB|06-06-2021|[java](code/1887.reduction-operations-to-make-the-array-elements-equal.java)|
+|1888|[Minimum Number Of Flips To Make The Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating)|0 ms|38 MB|06-06-2021|[java](code/1888.minimum-number-of-flips-to-make-the-binary-string-alternating.java)|
+|1889|[Minimum Space Wasted From Packaging](https://leetcode.com/problems/minimum-space-wasted-from-packaging)|0 ms|38 MB|06-06-2021|[java](code/1889.minimum-space-wasted-from-packaging.java)|
