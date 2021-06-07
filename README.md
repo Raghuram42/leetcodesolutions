@@ -652,6 +652,7 @@ My accepted leetcode solutions
 |1773|[Count Items Matching A Rule](https://leetcode.com/problems/count-items-matching-a-rule)|4 ms|43.4 MB|28-02-2021|[java](code/1773.count-items-matching-a-rule.java)|
 |1774|[Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost)|4 ms|43.4 MB|28-02-2021|[java](code/1774.closest-dessert-cost.java)|
 |1802|[Maximum Value At A Given Index In A Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array)|3 ms|38.2 MB|02-06-2021|[java](code/1802.maximum-value-at-a-given-index-in-a-bounded-array.java)|
+|1805|[Number Of Different Integers In A String](https://leetcode.com/problems/number-of-different-integers-in-a-string)|1 ms|37.1 MB|07-06-2021|[java](code/1805.number-of-different-integers-in-a-string.java)|
 |1813|[Sentence Similarity Iii](https://leetcode.com/problems/sentence-similarity-iii)|1 ms|37.5 MB|29-05-2021|[java](code/1813.sentence-similarity-iii.java)|
 |1818|[Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference)|117 ms|57.4 MB|27-05-2021|[java](code/1818.minimum-absolute-sum-difference.java)|
 |1823|[Find The Winner Of The Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game)|63 ms|38.4 MB|27-05-2021|[java](code/1823.find-the-winner-of-the-circular-game.java)|
