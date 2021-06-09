@@ -94,6 +94,7 @@ My accepted leetcode solutions
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|1 ms|39.9 MB|18-06-2020|[java](code/102.binary-tree-level-order-traversal.java)|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|0 ms|39.7 MB|22-07-2020|[java](code/103.binary-tree-zigzag-level-order-traversal.java)|
 |104|[Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|0 ms|38.8 MB|01-12-2020|[java](code/104.maximum-depth-of-binary-tree.java)|
+|105|[Construct Binary Tree From Preorder And Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|6 ms|41.1 MB|08-06-2021|[java](code/105.construct-binary-tree-from-preorder-and-inorder-traversal.java)|
 |106|[Construct Binary Tree From Inorder And Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|4 ms|40 MB|27-07-2020|[java](code/106.construct-binary-tree-from-inorder-and-postorder-traversal.java)|
 |107|[Binary Tree Level Order Traversal Ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|1 ms|40.3 MB|02-07-2020|[java](code/107.binary-tree-level-order-traversal-ii.java)|
 |109|[Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)|1 ms|39.9 MB|06-05-2021|[java](code/109.convert-sorted-list-to-binary-search-tree.java)|
@@ -635,7 +636,9 @@ My accepted leetcode solutions
 |1680|[Concatenation Of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers)|606 ms|38.6 MB|27-01-2021|[java](code/1680.concatenation-of-consecutive-binary-numbers.java)|
 |1684|[Count The Number Of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)|5 ms|39.5 MB|19-02-2021|[java](code/1684.count-the-number-of-consistent-strings.java)|
 |1689|[Partitioning Into Minimum Number Of Deci Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers)|5 ms|39.3 MB|26-05-2021|[java](code/1689.partitioning-into-minimum-number-of-deci-binary-numbers.java)|
+|1690|[Stone Game Vii](https://leetcode.com/problems/stone-game-vii)|356 ms|14.5 MB|08-06-2021|[cpp](code/1690.stone-game-vii.cpp)|
 |1695|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value)|6 ms|52.6 MB|28-05-2021|[java](code/1695.maximum-erasure-value.java)|
+|1696|[Jump Game Vi](https://leetcode.com/problems/jump-game-vi)|6 ms|52.6 MB|28-05-2021|[java](code/1696.jump-game-vi.java)|
 |1704|[Determine If String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike)|2 ms|37.5 MB|07-04-2021|[java](code/1704.determine-if-string-halves-are-alike.java)|
 |1710|[Maximum Units On A Truck](https://leetcode.com/problems/maximum-units-on-a-truck)|7 ms|38.9 MB|10-02-2021|[java](code/1710.maximum-units-on-a-truck.java)|
 |1720|[Decode Xored Array](https://leetcode.com/problems/decode-xored-array)|2 ms|53.4 MB|01-02-2021|[java](code/1720.decode-xored-array.java)|
