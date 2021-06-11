@@ -655,6 +655,8 @@ My accepted leetcode solutions
 |1769|[Minimum Number Of Operations To Move All Balls To Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box)|202 ms|258.5 MB|31-01-2021|[java](code/1769.minimum-number-of-operations-to-move-all-balls-to-each-box.java)|
 |1773|[Count Items Matching A Rule](https://leetcode.com/problems/count-items-matching-a-rule)|4 ms|43.4 MB|28-02-2021|[java](code/1773.count-items-matching-a-rule.java)|
 |1774|[Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost)|4 ms|43.4 MB|28-02-2021|[java](code/1774.closest-dessert-cost.java)|
+|1784|[Check If Binary String Has At Most One Segment Of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones)|0 ms|37 MB|11-06-2021|[java](code/1784.check-if-binary-string-has-at-most-one-segment-of-ones.java)|
+|1791|[Find Center Of Star Graph](https://leetcode.com/problems/find-center-of-star-graph)|49 ms|72.5 MB|11-06-2021|[java](code/1791.find-center-of-star-graph.java)|
 |1802|[Maximum Value At A Given Index In A Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array)|3 ms|38.2 MB|02-06-2021|[java](code/1802.maximum-value-at-a-given-index-in-a-bounded-array.java)|
 |1805|[Number Of Different Integers In A String](https://leetcode.com/problems/number-of-different-integers-in-a-string)|1 ms|37.1 MB|07-06-2021|[java](code/1805.number-of-different-integers-in-a-string.java)|
 |1813|[Sentence Similarity Iii](https://leetcode.com/problems/sentence-similarity-iii)|1 ms|37.5 MB|29-05-2021|[java](code/1813.sentence-similarity-iii.java)|
