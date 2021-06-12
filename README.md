@@ -423,6 +423,7 @@ My accepted leetcode solutions
 |865|[Smallest Subtree With All The Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes)|1 ms|38.2 MB|12-12-2020|[java](code/865.smallest-subtree-with-all-the-deepest-nodes.java)|
 |869|[Reordered Power Of 2](https://leetcode.com/problems/reordered-power-of-2)|1 ms|35.7 MB|21-03-2021|[java](code/869.reordered-power-of-2.java)|
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle)|172 ms|48.6 MB|24-03-2021|[javascript](code/870.advantage-shuffle.js)|
+|871|[Minimum Number Of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)|793 ms|40.1 MB|12-06-2021|[java](code/871.minimum-number-of-refueling-stops.java)|
 |872|[Leaf Similar Trees](https://leetcode.com/problems/leaf-similar-trees)|0 ms|37.2 MB|24-02-2021|[java](code/872.leaf-similar-trees.java)|
 |874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation)|34 ms|44.2 MB|29-12-2020|[java](code/874.walking-robot-simulation.java)|
 |876|[Middle Of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list)|0 ms|36.9 MB|04-05-2020|[java](code/876.middle-of-the-linked-list.java)|
@@ -695,3 +696,6 @@ My accepted leetcode solutions
 |1887|[Reduction Operations To Make The Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal)|0 ms|38 MB|06-06-2021|[java](code/1887.reduction-operations-to-make-the-array-elements-equal.java)|
 |1888|[Minimum Number Of Flips To Make The Binary String Alternating](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating)|0 ms|38 MB|06-06-2021|[java](code/1888.minimum-number-of-flips-to-make-the-binary-string-alternating.java)|
 |1889|[Minimum Space Wasted From Packaging](https://leetcode.com/problems/minimum-space-wasted-from-packaging)|0 ms|38 MB|06-06-2021|[java](code/1889.minimum-space-wasted-from-packaging.java)|
+|1893|[Check If All The Integers In A Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered)|3 ms|39.2 MB|12-06-2021|[java](code/1893.check-if-all-the-integers-in-a-range-are-covered.java)|
+|1894|[Find The Student That Will Replace The Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk)|3 ms|101.4 MB|12-06-2021|[java](code/1894.find-the-student-that-will-replace-the-chalk.java)|
+|1895|[Largest Magic Square](https://leetcode.com/problems/largest-magic-square)|167 ms|42 MB|12-06-2021|[java](code/1895.largest-magic-square.java)|
