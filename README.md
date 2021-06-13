@@ -234,6 +234,7 @@ My accepted leetcode solutions
 |329|[Longest Increasing Path In A Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|8 ms|39 MB|10-04-2021|[java](code/329.longest-increasing-path-in-a-matrix.java)|
 |332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary)|4 ms|40 MB|28-06-2020|[java](code/332.reconstruct-itinerary.java)|
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)|0 ms|38.7 MB|18-12-2020|[java](code/334.increasing-triplet-subsequence.java)|
+|336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs)|90 ms|40.9 MB|13-06-2021|[java](code/336.palindrome-pairs.java)|
 |337|[House Robber Iii](https://leetcode.com/problems/house-robber-iii)|1 ms|39.2 MB|03-10-2020|[java](code/337.house-robber-iii.java)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits)|1 ms|39.2 MB|03-10-2020|[java](code/338.counting-bits.java)|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator)|3 ms|41.4 MB|13-04-2021|[java](code/341.flatten-nested-list-iterator.java)|
@@ -699,3 +700,6 @@ My accepted leetcode solutions
 |1893|[Check If All The Integers In A Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered)|3 ms|39.2 MB|12-06-2021|[java](code/1893.check-if-all-the-integers-in-a-range-are-covered.java)|
 |1894|[Find The Student That Will Replace The Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk)|3 ms|101.4 MB|12-06-2021|[java](code/1894.find-the-student-that-will-replace-the-chalk.java)|
 |1895|[Largest Magic Square](https://leetcode.com/problems/largest-magic-square)|167 ms|42 MB|12-06-2021|[java](code/1895.largest-magic-square.java)|
+|1897|[Redistribute Characters To Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal)|121 ms|131.4 MB|06-06-2021|[java](code/1897.redistribute-characters-to-make-all-strings-equal.java)|
+|1898|[Maximum Number Of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters)|121 ms|131.4 MB|06-06-2021|[java](code/1898.maximum-number-of-removable-characters.java)|
+|1899|[Merge Triplets To Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet)|121 ms|131.4 MB|06-06-2021|[java](code/1899.merge-triplets-to-form-target-triplet.java)|
