@@ -567,6 +567,7 @@ My accepted leetcode solutions
 |1344|[Angle Between Hands Of A Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock)|1 ms|38.4 MB|14-07-2020|[java](code/1344.angle-between-hands-of-a-clock.java)|
 |1345|[Jump Game Iv](https://leetcode.com/problems/jump-game-iv)|66 ms|63.1 MB|27-12-2020|[java](code/1345.jump-game-iv.java)|
 |1346|[Check If N And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist)|2 ms|39.1 MB|09-06-2020|[java](code/1346.check-if-n-and-its-double-exist.java)|
+|1351|[Count Negative Numbers In A Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix)|1 ms|39.2 MB|14-06-2021|[java](code/1351.count-negative-numbers-in-a-sorted-matrix.java)|
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums)|7 ms|46.9 MB|09-05-2021|[java](code/1354.construct-target-array-with-multiple-sums.java)|
 |1356|[Sort Integers By The Number Of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)|6 ms|39.6 MB|10-02-2021|[java](code/1356.sort-integers-by-the-number-of-1-bits.java)|
 |1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes)|6 ms|51.8 MB|23-01-2021|[java](code/1361.validate-binary-tree-nodes.java)|
