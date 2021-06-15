@@ -299,6 +299,7 @@ My accepted leetcode solutions
 |464|[Can I Win](https://leetcode.com/problems/can-i-win)|14 ms|43.1 MB|25-09-2020|[java](code/464.can-i-win.java)|
 |468|[Validate Ip Address](https://leetcode.com/problems/validate-ip-address)|1 ms|37.5 MB|16-06-2020|[java](code/468.validate-ip-address.java)|
 |470|[Implement Rand10 Using Rand7](https://leetcode.com/problems/implement-rand10-using-rand7)|5 ms|44.9 MB|28-08-2020|[java](code/470.implement-rand10-using-rand7.java)|
+|473|[Matchsticks To Square](https://leetcode.com/problems/matchsticks-to-square)|1140 ms|36.8 MB|15-06-2021|[java](code/473.matchsticks-to-square.java)|
 |474|[Ones And Zeroes](https://leetcode.com/problems/ones-and-zeroes)|264 ms|9.7 MB|02-04-2021|[cpp](code/474.ones-and-zeroes.cpp)|
 |476|[Number Complement](https://leetcode.com/problems/number-complement)|0 ms|35.9 MB|04-05-2020|[java](code/476.number-complement.java)|
 |478|[Generate Random Point In A Circle](https://leetcode.com/problems/generate-random-point-in-a-circle)|208 ms|49.5 MB|17-03-2021|[java](code/478.generate-random-point-in-a-circle.java)|
