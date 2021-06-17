@@ -400,6 +400,7 @@ My accepted leetcode solutions
 |787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops)|120 ms|52 MB|14-06-2020|[java](code/787.cheapest-flights-within-k-stops.java)|
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits)|5 ms|35.9 MB|22-02-2021|[java](code/788.rotated-digits.java)|
 |794|[Valid Tic Tac Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state)|0 ms|36.5 MB|27-01-2021|[java](code/794.valid-tic-tac-toe-state.java)|
+|795|[Number Of Subarrays With Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)|2 ms|47.3 MB|17-06-2021|[java](code/795.number-of-subarrays-with-bounded-maximum.java)|
 |797|[All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target)|3 ms|41.2 MB|24-07-2020|[java](code/797.all-paths-from-source-to-target.java)|
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower)|1 ms|36.6 MB|26-10-2020|[java](code/799.champagne-tower.java)|
 |802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states)|4 ms|49.1 MB|12-01-2021|[java](code/802.find-eventual-safe-states.java)|
