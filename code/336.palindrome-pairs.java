@@ -96,14 +96,14 @@ class Solution {
             return res;
         }
         
-    public boolean palindrome(String w, int i, int l){
+    public boolean palindrome(String w, int i, int j){
         
-        while(i<l){
-            if(w.charAt(i) != w.charAt(l))
+        while(i<j){
+            if(w.charAt(i) != w.charAt(j))
                 return false;
             
             i++;
-            l--;
+            j--;
         }
         
         return true;
