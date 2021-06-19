@@ -42,6 +42,7 @@ My accepted leetcode solutions
 |38|[Count And Say](https://leetcode.com/problems/count-and-say)|1 ms|36.4 MB|13-06-2020|[java](code/38.count-and-say.java)|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|1 ms|36.4 MB|13-06-2020|[java](code/39.combination-sum.java)|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|1 ms|36.4 MB|13-06-2020|[java](code/41.first-missing-positive.java)|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|1 ms|40.2 MB|19-06-2021|[java](code/42.trapping-rain-water.java)|
 |45|[Jump Game Ii](https://leetcode.com/problems/jump-game-ii)|0 ms|36.9 MB|30-09-2020|[java](code/45.jump-game-ii.java)|
 |46|[Permutations](https://leetcode.com/problems/permutations)|1 ms|36.4 MB|13-06-2020|[java](code/46.permutations.java)|
 |47|[Permutations Ii](https://leetcode.com/problems/permutations-ii)|1 ms|39.8 MB|12-11-2020|[java](code/47.permutations-ii.java)|
@@ -350,6 +351,7 @@ My accepted leetcode solutions
 |623|[Add One Row To Tree](https://leetcode.com/problems/add-one-row-to-tree)|0 ms|38.7 MB|09-03-2021|[java](code/623.add-one-row-to-tree.java)|
 |626|[Exchange Seats](https://leetcode.com/problems/exchange-seats)|924 ms|0B|15-05-2020|[mssql](code/626.exchange-seats.sql)|
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary)|924 ms|0B|15-05-2020|[mssql](code/627.swap-salary.sql)|
+|629|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array)|2767 ms|39.7 MB|19-06-2021|[java](code/629.k-inverse-pairs-array.java)|
 |630|[Course Schedule Iii](https://leetcode.com/problems/course-schedule-iii)|924 ms|0B|15-05-2020|[mssql](code/630.course-schedule-iii.sql)|
 |637|[Average Of Levels In Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree)|924 ms|0B|15-05-2020|[mssql](code/637.average-of-levels-in-binary-tree.sql)|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch)|924 ms|0B|15-05-2020|[mssql](code/645.set-mismatch.sql)|
