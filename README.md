@@ -396,6 +396,7 @@ My accepted leetcode solutions
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string)|4 ms|38 MB|04-09-2020|[java](code/767.reorganize-string.java)|
 |771|[Jewels And Stones](https://leetcode.com/problems/jewels-and-stones)|4 ms|38 MB|04-09-2020|[java](code/771.jewels-and-stones.java)|
 |775|[Global And Local Inversions](https://leetcode.com/problems/global-and-local-inversions)|608 ms|39.4 MB|05-04-2021|[java](code/775.global-and-local-inversions.java)|
+|778|[Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water)|8 ms|39.6 MB|20-06-2021|[java](code/778.swim-in-rising-water.java)|
 |783|[Minimum Distance Between Bst Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes)|0 ms|36.6 MB|26-01-2021|[java](code/783.minimum-distance-between-bst-nodes.java)|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation)|6 ms|39.6 MB|16-02-2021|[java](code/784.letter-case-permutation.java)|
 |785|[Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite)|7 ms|40 MB|11-09-2020|[java](code/785.is-graph-bipartite.java)|
@@ -708,3 +709,6 @@ My accepted leetcode solutions
 |1897|[Redistribute Characters To Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal)|121 ms|131.4 MB|06-06-2021|[java](code/1897.redistribute-characters-to-make-all-strings-equal.java)|
 |1898|[Maximum Number Of Removable Characters](https://leetcode.com/problems/maximum-number-of-removable-characters)|121 ms|131.4 MB|06-06-2021|[java](code/1898.maximum-number-of-removable-characters.java)|
 |1899|[Merge Triplets To Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet)|121 ms|131.4 MB|06-06-2021|[java](code/1899.merge-triplets-to-form-target-triplet.java)|
+|1903|[Largest Odd Number In String](https://leetcode.com/problems/largest-odd-number-in-string)|76 ms|48.5 MB|13-06-2021|[java](code/1903.largest-odd-number-in-string.java)|
+|1904|[The Number Of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played)|76 ms|48.5 MB|13-06-2021|[java](code/1904.the-number-of-full-rounds-you-have-played.java)|
+|1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands)|1 ms|37.3 MB|02-06-2021|[java](code/1905.count-sub-islands.java)|
