@@ -67,6 +67,7 @@ My accepted leetcode solutions
 |66|[Plus One](https://leetcode.com/problems/plus-one)|0 ms|37.6 MB|06-07-2020|[java](code/66.plus-one.java)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary)|3 ms|38.1 MB|19-07-2020|[java](code/67.add-binary.java)|
 |68|[Text Justification](https://leetcode.com/problems/text-justification)|0 ms|39.3 MB|02-04-2021|[java](code/68.text-justification.java)|
+|69|[Sqrtx](https://leetcode.com/problems/sqrtx)|1 ms|36.3 MB|21-06-2021|[java](code/69.sqrtx.java)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|0 ms|36.1 MB|31-07-2020|[java](code/70.climbing-stairs.java)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path)|3 ms|39.3 MB|05-02-2021|[java](code/71.simplify-path.java)|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance)|5 ms|39.6 MB|31-05-2020|[java](code/72.edit-distance.java)|
@@ -434,6 +435,7 @@ My accepted leetcode solutions
 |874|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation)|34 ms|44.2 MB|29-12-2020|[java](code/874.walking-robot-simulation.java)|
 |876|[Middle Of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list)|0 ms|36.9 MB|04-05-2020|[java](code/876.middle-of-the-linked-list.java)|
 |877|[Stone Game](https://leetcode.com/problems/stone-game)|0 ms|39.2 MB|17-09-2020|[java](code/877.stone-game.java)|
+|878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number)|0 ms|36 MB|21-06-2021|[java](code/878.nth-magical-number.java)|
 |880|[Decoded String At Index](https://leetcode.com/problems/decoded-string-at-index)|208 ms|49.5 MB|17-03-2021|[java](code/880.decoded-string-at-index.java)|
 |881|[Boats To Save People](https://leetcode.com/problems/boats-to-save-people)|14 ms|48.2 MB|13-01-2021|[java](code/881.boats-to-save-people.java)|
 |886|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition)|17 ms|47.4 MB|27-05-2020|[java](code/886.possible-bipartition.java)|
