@@ -41,6 +41,7 @@ My accepted leetcode solutions
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|0 ms|39.8 MB|10-06-2020|[java](code/37.sudoku-solver.java)|
 |38|[Count And Say](https://leetcode.com/problems/count-and-say)|1 ms|36.4 MB|13-06-2020|[java](code/38.count-and-say.java)|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|1 ms|36.4 MB|13-06-2020|[java](code/39.combination-sum.java)|
+|40|[Combination Sum Ii](https://leetcode.com/problems/combination-sum-ii)|2 ms|39.4 MB|22-06-2021|[java](code/40.combination-sum-ii.java)|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|1 ms|36.4 MB|13-06-2020|[java](code/41.first-missing-positive.java)|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|1 ms|40.2 MB|19-06-2021|[java](code/42.trapping-rain-water.java)|
 |45|[Jump Game Ii](https://leetcode.com/problems/jump-game-ii)|0 ms|36.9 MB|30-09-2020|[java](code/45.jump-game-ii.java)|
@@ -85,6 +86,7 @@ My accepted leetcode solutions
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle)|10 ms|41.8 MB|05-06-2021|[java](code/85.maximal-rectangle.java)|
 |86|[Partition List](https://leetcode.com/problems/partition-list)|0 ms|38.8 MB|22-04-2021|[java](code/86.partition-list.java)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|0 ms|38.8 MB|22-04-2021|[java](code/88.merge-sorted-array.java)|
+|89|[Gray Code](https://leetcode.com/problems/gray-code)|5 ms|46.5 MB|22-06-2021|[java](code/89.gray-code.java)|
 |90|[Subsets Ii](https://leetcode.com/problems/subsets-ii)|0 ms|38.8 MB|22-04-2021|[java](code/90.subsets-ii.java)|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|1 ms|37.8 MB|20-09-2020|[java](code/91.decode-ways.java)|
 |92|[Reverse Linked List Ii](https://leetcode.com/problems/reverse-linked-list-ii)|1 ms|37.8 MB|20-09-2020|[java](code/92.reverse-linked-list-ii.java)|
@@ -387,6 +389,7 @@ My accepted leetcode solutions
 |729|[My Calendar I](https://leetcode.com/problems/my-calendar-i)|170 ms|39.5 MB|10-06-2021|[java](code/729.my-calendar-i.java)|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill)|2 ms|45 MB|11-05-2020|[java](code/733.flood-fill.java)|
 |735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision)|4 ms|40.3 MB|21-10-2020|[java](code/735.asteroid-collision.java)|
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures)|38 ms|48.4 MB|22-06-2021|[java](code/739.daily-temperatures.java)|
 |743|[Network Delay Time](https://leetcode.com/problems/network-delay-time)|120 ms|43.5 MB|26-02-2021|[cpp](code/743.network-delay-time.cpp)|
 |745|[Prefix And Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search)|120 ms|43.5 MB|26-02-2021|[cpp](code/745.prefix-and-suffix-search.cpp)|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)|120 ms|43.5 MB|26-02-2021|[cpp](code/746.min-cost-climbing-stairs.cpp)|
@@ -403,6 +406,7 @@ My accepted leetcode solutions
 |785|[Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite)|7 ms|40 MB|11-09-2020|[java](code/785.is-graph-bipartite.java)|
 |787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops)|120 ms|52 MB|14-06-2020|[java](code/787.cheapest-flights-within-k-stops.java)|
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits)|5 ms|35.9 MB|22-02-2021|[java](code/788.rotated-digits.java)|
+|792|[Number Of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences)|61 ms|46.9 MB|22-06-2021|[java](code/792.number-of-matching-subsequences.java)|
 |794|[Valid Tic Tac Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state)|0 ms|36.5 MB|27-01-2021|[java](code/794.valid-tic-tac-toe-state.java)|
 |795|[Number Of Subarrays With Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)|2 ms|47.3 MB|17-06-2021|[java](code/795.number-of-subarrays-with-bounded-maximum.java)|
 |797|[All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target)|3 ms|41.2 MB|24-07-2020|[java](code/797.all-paths-from-source-to-target.java)|
