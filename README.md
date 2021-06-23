@@ -386,6 +386,7 @@ My accepted leetcode solutions
 |714|[Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)|56 ms|319.4 MB|16-03-2021|[java](code/714.best-time-to-buy-and-sell-stock-with-transaction-fee.java)|
 |717|[1 Bit And 2 Bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters)|0 ms|38.7 MB|29-09-2020|[java](code/717.1-bit-and-2-bit-characters.java)|
 |721|[Accounts Merge](https://leetcode.com/problems/accounts-merge)|22 ms|42.6 MB|20-01-2021|[java](code/721.accounts-merge.java)|
+|725|[Split Linked List In Parts](https://leetcode.com/problems/split-linked-list-in-parts)|0 ms|39.3 MB|23-06-2021|[java](code/725.split-linked-list-in-parts.java)|
 |729|[My Calendar I](https://leetcode.com/problems/my-calendar-i)|170 ms|39.5 MB|10-06-2021|[java](code/729.my-calendar-i.java)|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill)|2 ms|45 MB|11-05-2020|[java](code/733.flood-fill.java)|
 |735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision)|4 ms|40.3 MB|21-10-2020|[java](code/735.asteroid-collision.java)|
@@ -413,6 +414,7 @@ My accepted leetcode solutions
 |799|[Champagne Tower](https://leetcode.com/problems/champagne-tower)|1 ms|36.6 MB|26-10-2020|[java](code/799.champagne-tower.java)|
 |802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states)|4 ms|49.1 MB|12-01-2021|[java](code/802.find-eventual-safe-states.java)|
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words)|1 ms|36.9 MB|22-11-2020|[java](code/804.unique-morse-code-words.java)|
+|807|[Max Increase To Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline)|1 ms|38.7 MB|23-06-2021|[java](code/807.max-increase-to-keep-city-skyline.java)|
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count)|16 ms|39.9 MB|24-02-2021|[java](code/811.subdomain-visit-count.java)|
 |816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates)|10 ms|40.3 MB|13-05-2021|[java](code/816.ambiguous-coordinates.java)|
 |820|[Short Encoding Of Words](https://leetcode.com/problems/short-encoding-of-words)|30 ms|46.8 MB|06-03-2021|[java](code/820.short-encoding-of-words.java)|
@@ -632,6 +634,7 @@ My accepted leetcode solutions
 |1603|[Design Parking System](https://leetcode.com/problems/design-parking-system)|8 ms|51.7 MB|02-02-2021|[java](code/1603.design-parking-system.java)|
 |1608|[Special Array With X Elements Greater Than Or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x)|8 ms|51.7 MB|02-02-2021|[java](code/1608.special-array-with-x-elements-greater-than-or-equal-x.java)|
 |1611|[Minimum One Bit Operations To Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero)|8 ms|51.7 MB|02-02-2021|[java](code/1611.minimum-one-bit-operations-to-make-integers-zero.java)|
+|1616|[Split Two Strings To Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome)|3 ms|39.6 MB|23-06-2021|[java](code/1616.split-two-strings-to-make-palindrome.java)|
 |1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort)|8 ms|51.7 MB|02-02-2021|[java](code/1631.path-with-minimum-effort.java)|
 |1640|[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation)|8 ms|51.7 MB|02-02-2021|[java](code/1640.check-array-formation-through-concatenation.java)|
 |1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings)|117 ms|37.7 MB|17-01-2021|[java](code/1641.count-sorted-vowel-strings.java)|
