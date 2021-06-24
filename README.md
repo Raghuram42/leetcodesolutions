@@ -278,6 +278,7 @@ My accepted leetcode solutions
 |421|[Maximum Xor Of Two Numbers In An Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array)|42 ms|54.4 MB|16-09-2020|[java](code/421.maximum-xor-of-two-numbers-in-an-array.java)|
 |423|[Reconstruct Original Digits From English](https://leetcode.com/problems/reconstruct-original-digits-from-english)|16 ms|39.3 MB|28-03-2021|[java](code/423.reconstruct-original-digits-from-english.java)|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|16 ms|39.3 MB|28-03-2021|[java](code/424.longest-repeating-character-replacement.java)|
+|427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree)|0 ms|39.4 MB|24-06-2021|[java](code/427.construct-quad-tree.java)|
 |430|[Flatten A Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)|203 ms|73 MB|01-05-2021|[java](code/430.flatten-a-multilevel-doubly-linked-list.java)|
 |435|[Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|3 ms|39.3 MB|15-08-2020|[java](code/435.non-overlapping-intervals.java)|
 |436|[Find Right Interval](https://leetcode.com/problems/find-right-interval)|168 ms|28 MB|27-08-2020|[cpp](code/436.find-right-interval.cpp)|
@@ -337,6 +338,7 @@ My accepted leetcode solutions
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt)|0 ms|38.8 MB|08-11-2020|[java](code/563.binary-tree-tilt.java)|
 |567|[Permutation In String](https://leetcode.com/problems/permutation-in-string)|23 ms|39.8 MB|18-05-2020|[java](code/567.permutation-in-string.java)|
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies)|31 ms|40.7 MB|16-02-2021|[java](code/575.distribute-candies.java)|
+|576|[Out Of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths)|19 ms|39.3 MB|24-06-2021|[java](code/576.out-of-boundary-paths.java)|
 |581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)|12 ms|40.4 MB|28-09-2020|[java](code/581.shortest-unsorted-continuous-subarray.java)|
 |583|[Delete Operation For Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)|8 ms|39.4 MB|07-05-2021|[java](code/583.delete-operation-for-two-strings.java)|
 |589|[N Ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal)|4 ms|38 MB|04-09-2020|[java](code/589.n-ary-tree-preorder-traversal.java)|
@@ -370,6 +372,7 @@ My accepted leetcode solutions
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game)|1560 ms|14.5 MB|30-10-2020|[python3](code/682.baseball-game.py)|
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection)|6 ms|40.1 MB|16-06-2020|[java](code/684.redundant-connection.java)|
 |687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)|11 ms|63.7 MB|26-01-2021|[java](code/687.longest-univalue-path.java)|
+|688|[Knight Probability In Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard)|5 ms|38.6 MB|24-06-2021|[java](code/688.knight-probability-in-chessboard.java)|
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance)|5 ms|40.8 MB|14-01-2021|[java](code/690.employee-importance.java)|
 |695|[Max Area Of Island](https://leetcode.com/problems/max-area-of-island)|5 ms|40.8 MB|14-01-2021|[java](code/695.max-area-of-island.java)|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings)|252 ms|16.6 MB|23-04-2021|[python](code/696.count-binary-substrings.py)|
@@ -533,6 +536,7 @@ My accepted leetcode solutions
 |1129|[Shortest Path With Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors)|5 ms|39.7 MB|25-01-2021|[java](code/1129.shortest-path-with-alternating-colors.java)|
 |1130|[Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values)|12 ms|37.2 MB|16-09-2020|[java](code/1130.minimum-cost-tree-from-leaf-values.java)|
 |1137|[N Th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number)|0 ms|35.4 MB|26-01-2021|[java](code/1137.n-th-tribonacci-number.java)|
+|1140|[Stone Game Ii](https://leetcode.com/problems/stone-game-ii)|271 ms|39.1 MB|24-06-2021|[java](code/1140.stone-game-ii.java)|
 |1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence)|17 ms|43.5 MB|29-05-2020|[java](code/1143.longest-common-subsequence.java)|
 |1162|[As Far From Land As Possible](https://leetcode.com/problems/as-far-from-land-as-possible)|25 ms|56.5 MB|11-01-2021|[java](code/1162.as-far-from-land-as-possible.java)|
 |1169|[Invalid Transactions](https://leetcode.com/problems/invalid-transactions)|499 ms|39.9 MB|14-02-2021|[java](code/1169.invalid-transactions.java)|
