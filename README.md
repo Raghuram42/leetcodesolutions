@@ -233,6 +233,7 @@ My accepted leetcode solutions
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters)|3 ms|38.9 MB|11-10-2020|[java](code/316.remove-duplicate-letters.java)|
 |318|[Maximum Product Of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)|24 ms|39 MB|27-05-2021|[java](code/318.maximum-product-of-word-lengths.java)|
 |322|[Coin Change](https://leetcode.com/problems/coin-change)|53 ms|52.5 MB|22-09-2020|[java](code/322.coin-change.java)|
+|324|[Wiggle Sort Ii](https://leetcode.com/problems/wiggle-sort-ii)|6 ms|41.2 MB|25-06-2021|[java](code/324.wiggle-sort-ii.java)|
 |326|[Power Of Three](https://leetcode.com/problems/power-of-three)|10 ms|38.8 MB|27-04-2021|[java](code/326.power-of-three.java)|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|1 ms|42.1 MB|16-05-2020|[java](code/328.odd-even-linked-list.java)|
 |329|[Longest Increasing Path In A Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|8 ms|39 MB|10-04-2021|[java](code/329.longest-increasing-path-in-a-matrix.java)|
@@ -363,6 +364,7 @@ My accepted leetcode solutions
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings)|9 ms|39.1 MB|12-03-2021|[java](code/647.palindromic-substrings.java)|
 |650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard)|0 ms|35.5 MB|13-04-2021|[java](code/650.2-keys-keyboard.java)|
 |653|[Two Sum Iv Input Is A Bst](https://leetcode.com/problems/two-sum-iv-input-is-a-bst)|2 ms|40.2 MB|12-06-2020|[java](code/653.two-sum-iv-input-is-a-bst.java)|
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree)|2 ms|39.3 MB|25-06-2021|[java](code/654.maximum-binary-tree.java)|
 |662|[Maximum Width Of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree)|1 ms|39.1 MB|09-07-2020|[java](code/662.maximum-width-of-binary-tree.java)|
 |665|[Non Decreasing Array](https://leetcode.com/problems/non-decreasing-array)|0 ms|40.4 MB|27-10-2020|[java](code/665.non-decreasing-array.java)|
 |667|[Beautiful Arrangement Ii](https://leetcode.com/problems/beautiful-arrangement-ii)|1 ms|39 MB|12-04-2021|[java](code/667.beautiful-arrangement-ii.java)|
@@ -371,6 +373,7 @@ My accepted leetcode solutions
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string)|1560 ms|14.5 MB|30-10-2020|[python3](code/678.valid-parenthesis-string.py)|
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game)|1560 ms|14.5 MB|30-10-2020|[python3](code/682.baseball-game.py)|
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection)|6 ms|40.1 MB|16-06-2020|[java](code/684.redundant-connection.java)|
+|685|[Redundant Connection Ii](https://leetcode.com/problems/redundant-connection-ii)|191 ms|41.4 MB|25-06-2021|[java](code/685.redundant-connection-ii.java)|
 |687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)|11 ms|63.7 MB|26-01-2021|[java](code/687.longest-univalue-path.java)|
 |688|[Knight Probability In Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard)|5 ms|38.6 MB|24-06-2021|[java](code/688.knight-probability-in-chessboard.java)|
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance)|5 ms|40.8 MB|14-01-2021|[java](code/690.employee-importance.java)|
@@ -427,6 +430,7 @@ My accepted leetcode solutions
 |832|[Flipping An Image](https://leetcode.com/problems/flipping-an-image)|52 ms|14.2 MB|10-11-2020|[python3](code/832.flipping-an-image.py)|
 |835|[Image Overlap](https://leetcode.com/problems/image-overlap)|44 ms|38.5 MB|06-09-2020|[java](code/835.image-overlap.java)|
 |836|[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap)|0 ms|36 MB|02-03-2021|[java](code/836.rectangle-overlap.java)|
+|837|[New 21 Game](https://leetcode.com/problems/new-21-game)|4 ms|38.7 MB|25-06-2021|[java](code/837.new-21-game.java)|
 |841|[Keys And Rooms](https://leetcode.com/problems/keys-and-rooms)|2 ms|42 MB|10-01-2021|[java](code/841.keys-and-rooms.java)|
 |844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)|0 ms|37.1 MB|05-05-2020|[java](code/844.backspace-string-compare.java)|
 |845|[Longest Mountain In Array](https://leetcode.com/problems/longest-mountain-in-array)|3 ms|40.1 MB|16-11-2020|[java](code/845.longest-mountain-in-array.java)|
