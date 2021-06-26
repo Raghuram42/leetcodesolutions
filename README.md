@@ -729,3 +729,6 @@ My accepted leetcode solutions
 |1903|[Largest Odd Number In String](https://leetcode.com/problems/largest-odd-number-in-string)|76 ms|48.5 MB|13-06-2021|[java](code/1903.largest-odd-number-in-string.java)|
 |1904|[The Number Of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played)|76 ms|48.5 MB|13-06-2021|[java](code/1904.the-number-of-full-rounds-you-have-played.java)|
 |1905|[Count Sub Islands](https://leetcode.com/problems/count-sub-islands)|1 ms|37.3 MB|02-06-2021|[java](code/1905.count-sub-islands.java)|
+|1909|[Remove One Element To Make The Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing)|15 ms|38.7 MB|26-06-2021|[java](code/1909.remove-one-element-to-make-the-array-strictly-increasing.java)|
+|1910|[Remove All Occurrences Of A Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring)|1 ms|38.9 MB|26-06-2021|[java](code/1910.remove-all-occurrences-of-a-substring.java)|
+|1911|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum)|80 ms|121.8 MB|26-06-2021|[java](code/1911.maximum-alternating-subsequence-sum.java)|
