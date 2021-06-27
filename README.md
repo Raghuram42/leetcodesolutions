@@ -124,6 +124,7 @@ My accepted leetcode solutions
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning)|9 ms|52.8 MB|14-12-2020|[java](code/131.palindrome-partitioning.java)|
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph)|27 ms|39.4 MB|02-06-2020|[java](code/133.clone-graph.java)|
 |134|[Gas Station](https://leetcode.com/problems/gas-station)|0 ms|39.8 MB|05-06-2020|[java](code/134.gas-station.java)|
+|135|[Candy](https://leetcode.com/problems/candy)|24 ms|41.4 MB|27-06-2021|[java](code/135.candy.java)|
 |136|[Single Number](https://leetcode.com/problems/single-number)|0 ms|40.7 MB|02-05-2020|[java](code/136.single-number.java)|
 |137|[Single Number Ii](https://leetcode.com/problems/single-number-ii)|1 ms|39.4 MB|22-06-2020|[java](code/137.single-number-ii.java)|
 |138|[Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|0 ms|38.5 MB|10-02-2021|[java](code/138.copy-list-with-random-pointer.java)|
@@ -732,3 +733,5 @@ My accepted leetcode solutions
 |1909|[Remove One Element To Make The Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing)|15 ms|38.7 MB|26-06-2021|[java](code/1909.remove-one-element-to-make-the-array-strictly-increasing.java)|
 |1910|[Remove All Occurrences Of A Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring)|1 ms|38.9 MB|26-06-2021|[java](code/1910.remove-all-occurrences-of-a-substring.java)|
 |1911|[Maximum Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum)|80 ms|121.8 MB|26-06-2021|[java](code/1911.maximum-alternating-subsequence-sum.java)|
+|1913|[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs)|4 ms|52.2 MB|20-06-2021|[java](code/1913.maximum-product-difference-between-two-pairs.java)|
+|1915|[Number Of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings)|40 ms|134.9 MB|20-06-2021|[java](code/1915.number-of-wonderful-substrings.java)|
