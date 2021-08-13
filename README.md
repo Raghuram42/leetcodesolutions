@@ -2,7 +2,7 @@
 My accepted leetcode solutions
 
 |ID|Title|Runtime|Memory|Timestamp|Solution|
-|---|-----|--------|-------|-------------|--------|
+|---|-----|--------|-------|--------------|--------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|2 ms|38.7 MB|11-01-2020|[java](code/1.two-sum.java)|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|2 ms|38.7 MB|11-01-2020|[java](code/2.add-two-numbers.java)|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|2 ms|38.7 MB|11-01-2020|[java](code/3.longest-substring-without-repeating-characters.java)|
