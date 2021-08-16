@@ -1,6 +1,7 @@
 # Leetcode Solutions
 My accepted leetcode solutions
 
+
 |ID|Title|Runtime|Memory|Timestamp|Solution|
 |---|-----|--------|-------|--------------|--------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|2 ms|38.7 MB|11-01-2020|[java](code/1.two-sum.java)|
