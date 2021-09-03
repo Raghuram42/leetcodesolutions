@@ -1,0 +1,45 @@
+class Solution {
+    public int[][] outerTrees(int[][] trees) {
+        int n = trees.length;
+        if(n < 4)
+            return trees;
+        HashSet<int[]> res = new HashSet<>();
+        int leftMost = 0;
+        
+        for(int i=0;i<n;i++){
+            if(i != leftMost && trees[i][0] < trees[leftMost][0])
+                leftMost = i;
+        }
+        int p = leftMost;
+        while(true){
+            int next = (p+1)%n;
+            for(int i=0;i<n;i++){
+                if(orientation(trees[p], trees[i], trees[next]) < 0)
+                    next = i;
+                    
+            }
+            
+            for(int i=0;i<n;i++){
+                if(i != p && i != next && orientation(trees[p], trees[i], trees[next]) == 0 && isbetween(trees[p], trees[i], trees[next]))
+                    res.add(trees[i]);
+            }
+            
+            res.add(trees[next]);
+            p = next;
+            if(p == leftMost)
+                break;
+        }
+        
+        return res.toArray(new int[res.size()][]);
+    }
+    public int orientation(int[] a, int[] b, int[] c){
+        
+        return ((b[1]-a[1]) * (c[0]-b[0])) - ((b[0]-a[0]) * (c[1]-b[1]));
+    }
+    
+    public boolean isbetween(int[] a, int[] b, int[] c){
+        boolean x = (b[0] <= a[0]) && (b[0] >= c[0]) || (b[0] >= a[0]) && (b[0] <= c[0]);
+        boolean y = (b[1] <= a[1]) && (b[1] >= c[1]) || (b[1] >= a[1]) && (b[1] <= c[1]);
+        return x && y;
+    }
+}
