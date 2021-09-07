@@ -5,6 +5,7 @@ class Solution {
             return res;
         int[][] mapr = new int[A.length][26];
         int p = 0;
+        
         for(String s: A){
             for(int i=0;i<s.length();i++){
                 mapr[p][s.charAt(i)-'a']++;
@@ -13,12 +14,14 @@ class Solution {
             }
             p++;
         }
+        
         for(int i=0;i<26;i++){
             while(mapr[A.length-1][i] > 0){
                 res.add(String.valueOf((char)(i+'a')));
                 mapr[A.length-1][i]--;
             }
         }
+        
         return res;
     }
 }
