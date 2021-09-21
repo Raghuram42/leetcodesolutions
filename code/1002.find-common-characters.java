@@ -1,6 +1,7 @@
 class Solution {
     public List<String> commonChars(String[] A) {
         List<String> res = new ArrayList<String>();
+        
         if(A.length == 0)
             return res;
         int[][] mapr = new int[A.length][26];
