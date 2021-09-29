@@ -8,9 +8,6 @@ class Solution {
                   solve(A, i, j);
             }
         }
-        
-        
-        
         for(int i=0;i<A.length;i++){
         for(int j=0;j<A[0].length;j++){
             if(A[i][j] == 1)
@@ -19,10 +16,7 @@ class Solution {
         }
 
         return noofons;
-        
-        
     }
-    
     public void solve(int[][] A, int i, int j){
         if(i<0 ||  j<0 || i >= A.length || j >= A[0].length)
             return;
