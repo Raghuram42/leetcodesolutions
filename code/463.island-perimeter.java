@@ -1,57 +1,46 @@
 class Solution {
-    int[][] g;
-    HashSet<String> hst;
+    int[][] dir = new int[][]{{0,1},{1,0},{-1,0},{0,-1}};
+    boolean[][] vis;
     public int islandPerimeter(int[][] grid) {
-        if(grid.length == 0)
-            return 0;
-        g = grid;
-        int res =0;
-        hst = new HashSet<String>();
-        for(int i=0;i<g.length;i++){
-            for(int j=0;j<g[0].length;j++){
-                if(g[i][j] == 1){
-                    res = dfs(i, j, 0);
-                // if(res>4)
-                //     res = res-((res/4)-1)*2;
-                    return res;
+        int res = 0;
+        int n = grid.length;
+        int m = grid[0].length;
+        vis = new boolean[n][m];
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++)
+            {
+                if(grid[i][j] == 1){
+                    res += dfs(grid, i, j);
                 }
             }
         }
-        return 0;
+        
+        return res;
     }
-    public int dfs(int i, int j, int res){
-     
-        if((i>=g.length || i<0) || (j<0 || j>=g[0].length)){
-     
-            return res;
-        }
-     
-       
-       if(g[i][j] == 1){
-            res += 4;
-           hst.add(i+" "+j);
-       }
-        else
-            return res;
-     //    System.out.println(i+" "+j+" "+g[i][j]+" "+res+" "+g[i][j]);
-     
-     g[i][j] = 0;
-        res = dfs(i, j+1, res);
-        res = dfs(i+1,j, res) ;
-        res = dfs(i-1,j, res) ;
-        res = dfs(i,j-1, res);
+    
+    public int dfs(int[][] grid, int i, int j){
+        if(i<0 || j<0 || i>=grid.length || j>=grid[0].length || vis[i][j] || grid[i][j] == 0)
+            return 0;
         
-        if(hst.contains(i+" "+(j+1)))
-            res--;
+        int res = 0;
         
-        if(hst.contains(i+" "+(j-1)))
-            res--;
         
-        if(hst.contains((i+1)+" "+j))
-            res--;
+        if(j-1 < 0 || (j-1 >= 0 && grid[i][j-1] == 0))
+            res++;
         
-        if(hst.contains((i-1)+" "+j))
-            res--;
+        if(i-1 < 0 || (i-1 >= 0 && grid[i-1][j] == 0))
+            res++;
+        
+        if(j+1 >= grid[0].length || (j+1 < grid[0].length && grid[i][j+1] == 0))
+            res++;
+        
+        if(i+1 >= grid.length || (i+1 < grid.length && grid[i+1][j] == 0))
+            res++;
+        
+        vis[i][j] = true;
+        for(int d=0;d<4;d++)
+            res += dfs(grid, i+dir[d][0], j+dir[d][1]);
+        
         return res;
     }
 }
