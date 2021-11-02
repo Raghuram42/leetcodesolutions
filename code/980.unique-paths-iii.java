@@ -1,50 +1,42 @@
 class Solution {
-    int res;
+    int[][] dir = new int[][]{{-1,0},{1,0},{0,1},{0,-1}};
     public int uniquePathsIII(int[][] grid) {
-        res = 0;
+        int[] st = new int[2];
+        int[] end = new int[2];
         int n = grid.length;
         int m = grid[0].length;
-        int p = 0;
-         for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<m;j++){
-                       if(grid[i][j] == -1){
-                           p++;
-                       }
-            }
-         }
-        for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<m;j++){
-                if(grid[i][j] == 1){
-                    dfs(grid, (grid.length*grid[0].length)-p-1, i, j);
-                    return res;
-                }
+        int places = 0;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++)
+            {
+                if(grid[i][j] == 1)       
+                    st = new int[]{i, j};
+                else if(grid[i][j] == 2)
+                    end = new int[]{i, j};
+                else if(grid[i][j] == 0)
+                    places++;
+                    
             }
         }
-        
-        return res;
+        // System.out.println(Arrays.toString(st)+" "+Arrays.toString(end)+" "+places);
+        return solve(grid, places, st[0], st[1], end[0], end[1]);
     }
     
-    public void dfs(int[][] grid, int len, int i, int j){
-        if(i>=0 && i < grid.length && j >= 0 && j < grid[0].length)
-        {
-            //if(grid[i][j] != -1)
-       //     System.out.println(len+" "+i+" "+j+" "+ grid[i][j]);
-            if(grid[i][j] == -1)
-                return;
-            if(grid[i][j] == 2){
-                if(len == 0)
-                    res++;
-                return;
-            }
-            int c  = grid[i][j];
-            grid[i][j] = -1;
-            dfs(grid, len-1, i-1, j);
-            dfs(grid, len-1, i+1, j);
-            dfs(grid, len-1, i, j-1);
-            dfs(grid, len-1, i, j+1);
-            grid[i][j] = c;
-        }
+    public int solve(int[][] g, int p, int i, int j, int ie, int je){
+        if(i>=g.length || j>= g[0].length || i<0 || j<0 || g[i][j] == -1)
+            return 0;
+        
+        if(i == ie && j ==je && p == -1)
+            return 1;
+        // System.out.println(p+" "+i+" "+j);
+        int cur = g[i][j];
+        g[i][j] = -1;
+        
+        int res = 0;
+        
+        for(int d=0;d<4;d++)
+            res += solve(g, p-1, i+dir[d][0], j+dir[d][1], ie, je);
+        g[i][j] = cur;
+        return res;
     }
 }
