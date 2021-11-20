@@ -1,28 +1,29 @@
 class Solution {
     public int singleNonDuplicate(int[] nums) {
-        return nums[singlesort(nums ,0 ,nums.length-1)];
+     
+        int l = 0;
+        int r = nums.length-1;
+        int n = nums.length;
+        while(l<=r){
+            int mid = (l+r)/2;
+            
+            if((mid-1 >=0 && nums[mid] != nums[mid-1]) && (mid+1 < n && nums[mid] != nums[mid+1]))
+                return nums[mid];
+            
+            if(mid+1 < n){
+                if(nums[mid] == nums[mid+1])
+                    mid = mid+1;
+            }
+            
+            int val = (mid-l+1);
+            
+            if(val%2 != 0){
+                r = mid-2;
+            }else
+                l = mid+1;
+            
+        }
+        
+        return nums[l];
     }
-    public int singlesort(int[] nums, int l, int e){
-        int mid = l + (e-l)/2;
-        
-        if(mid == l || mid == e)
-            return mid;
-        
-        if(mid - 1 >= 0 &&  nums[mid] == nums[mid - 1])
-        {
-            if((mid - 1)%2 == 0)
-                return singlesort(nums, mid+1, e);
-            else 
-                return singlesort(nums, l, mid - 2);
-        }
-        else if (mid+1 <= nums.length-1 &&  nums[mid] == nums[mid + 1]){
-            if((e-mid-1)%2 == 0){
-                return singlesort(nums, l, mid-1); 
-            }
-            else{
-                return singlesort(nums, mid+2 ,e);
-            }
-        }
-                return mid;
-    } 
 }
