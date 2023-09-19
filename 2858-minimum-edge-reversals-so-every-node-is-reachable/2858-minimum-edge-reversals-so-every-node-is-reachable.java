@@ -19,33 +19,21 @@ class Solution {
     int[] res;
     public int[] minEdgeReversals(int n, int[][] edges) {
         g = new HashMap<>();
-        HashMap<Integer, HashSet<Integer>> map = new HashMap<>();
         dp = new Integer[n][3];
-        for(int[] e: edges){
-            if(!g.containsKey(e[0])){
-                g.put(e[0], new ArrayList<Node>());
-                map.put(e[0], new HashSet<>());
-            }
-            g.get(e[0]).add(new Node(e[0], e[1], 0));
-            map.get(e[0]).add(e[1]);
-        }
         for(int[] e: edges){
             int u = e[0];
             int v = e[1];
-            // System.out.println(map.get(v)+" "+u+);
-            if(map.containsKey(v) && map.get(v).contains(u))
-                continue;
-                
-                if(!g.containsKey(v))
+            if(!g.containsKey(e[0])){
+                g.put(e[0], new ArrayList<Node>());
+            }
+            g.get(e[0]).add(new Node(e[0], e[1], 0));
+            
+              if(!g.containsKey(v))
                     g.put(v, new ArrayList<Node>());
             
                 g.get(v).add(new Node(v, u, 1));
-            }
+        }
         
-        // for(int k: g.keySet())
-        // {
-        //     Collections.sort(g.get(k), (a, b)->a.i-b.i);
-        // }
         res = new int[n];
                 
         s(0, 0, -1);
