@@ -42,17 +42,12 @@ class Solution {
                 g.get(v).add(new Node(v, u, 1));
             }
         
-        for(int k: g.keySet())
-        {
-            Collections.sort(g.get(k), (a, b)->a.i-b.i);
-        }
-        // System.out.println(g+" "+map);
-        res = new int[n];
-        
-        // for(int i=0;i<n;i++){
-        //     res[i] = s(i, 0, new boolean[n]);
+        // for(int k: g.keySet())
+        // {
+        //     Collections.sort(g.get(k), (a, b)->a.i-b.i);
         // }
-        
+        res = new int[n];
+                
         s(0, 0, -1);
         s2(0, -1);
         
