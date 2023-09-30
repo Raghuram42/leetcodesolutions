@@ -1,22 +1,12 @@
 class Solution {
-    public int[] twoSum(int[] numscpy, int target) {
-        int n = numscpy.length;
-        int[][] nums = new int[n][2];
-         
-        for(int i=0;i<n;i++)
-            nums[i] = new int[]{numscpy[i], i};
-        Arrays.sort(nums, (a, b)->a[0]-b[0]);
-        
-        int i = 0;
-        n -=1;
-        
-        while(i<n){
-            if(nums[i][0]+nums[n][0] == target)
-                return new int[]{nums[i][1], nums[n][1]};
-            else if(nums[i][0]+nums[n][0] > target)
-                n--;
-            else
-                i++;
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int n = nums.length;
+        for(int i=0;i<n;i++){
+            if(map.containsKey(nums[i]))
+                return new int[]{map.get(nums[i]), i};
+            
+            map.put(target-nums[i], i);
         }
         
         return new int[0];
