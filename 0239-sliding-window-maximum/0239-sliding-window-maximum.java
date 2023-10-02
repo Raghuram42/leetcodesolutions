@@ -6,11 +6,11 @@ class Solution {
         int n = nums.length;
         
         while(i<k){
-            if(q.isEmpty() || nums[i] < nums[q.peekLast()])
+            if(q.isEmpty() || nums[i] <= nums[q.peekLast()])
                 q.addLast(i);
             else{
                 
-                while(!q.isEmpty() && nums[i] >= nums[q.peekLast()])
+                while(!q.isEmpty() && nums[i] > nums[q.peekLast()])
                     q.pollLast();
                 
                 q.addLast(i);
