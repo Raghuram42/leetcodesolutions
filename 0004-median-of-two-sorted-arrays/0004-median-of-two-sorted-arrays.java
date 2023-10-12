@@ -43,26 +43,6 @@ class Solution {
             
             lenC++;   
         }
-        int l=i;
-        int r =j;
-        if(l<m){
-            l = r == 0 ? mIndex : mIndex-r;
-            
-            if(odd)
-                return (double)nums1[l];
-            return (nums1[l]+nums1[l-1])/2d;
-            
-        }
-        
-        
-        if(r < m){
-            r = l == 0 ? mIndex : mIndex-l;
-            
-            if(odd)
-                return 0d+nums2[r];
-            return (nums2[r]+nums2[r+1])/2d;
-        }
-        
         return -1d;
     }
 }
