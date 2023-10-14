@@ -1,17 +1,14 @@
 class Solution {
     List<List<Integer>> res;
-    List<List<Integer>>[][] dp;
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
         res = new ArrayList<List<Integer>>();
         int n = candidates.length;
-        
-        dp = new List[n][target+1];
-         solve(candidates, target, 0, new ArrayList<>());
+        solve(candidates, target, 0, new ArrayList<>());
         return res;
     }
     
-    public List<List<Integer>> solve(int[] c, int t, int i, List<Integer> li){
+    public void solve(int[] c, int t, int i, List<Integer> li){
        
         if(t == 0)
         {
@@ -19,13 +16,11 @@ class Solution {
             List<List<Integer>> rt = new ArrayList<>();
             rt.add(ret);
             res.add(ret);
-            return rt;
+            return;
         }
         
          if(i >= c.length)
-            return new ArrayList<>();
-        
-        List<List<Integer>> fres = new ArrayList<>();
+            return;        
         int n = c.length;
         for(int p=i;p<n;p++){
             
@@ -33,17 +28,11 @@ class Solution {
                 continue;
             
             li.add(c[p]);
-            List<List<Integer>> tres = solve(c, t-c[p], p+1, li);
+            solve(c, t-c[p], p+1, li);
             
-            for(List<Integer> next: tres){
-            // if(next.size() > 0)
-            fres.add(next);
-            }
             li.remove(li.size()-1);
         }
         
-        
-        return dp[i][t] = fres;
         
     }
 }
