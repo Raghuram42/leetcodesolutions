@@ -1,67 +1,58 @@
 class Solution {
     public List<Integer> beautifulIndices(String s, String a, String b, int k) {
-        List<Integer> f = new ArrayList<>();
-        List<Integer> se = new ArrayList<>();
+        List<Integer> indicesA = new ArrayList<>();
+        List<Integer> indicesB = new ArrayList<>();
         
-        // for()
-        int i = 0;
-        
-        int n = s.length();
-        int m = a.length();
-        int o = b.length();
-        while(i<=n-m){
-            if(s.substring(i, i+m).equals(a))
-                f.add(i);
-            i++;
+        // Find indices of occurrences of string 'a' in 's'
+        for (int i = 0; i <= s.length() - a.length(); i++) {
+            if (s.substring(i, i + a.length()).equals(a)) {
+                indicesA.add(i);
+            }
         }
         
-        i = 0;
-        
-        while(i<=n-o){
-            if(s.substring(i, i+o).equals(b))
-                se.add(i);
-            i++;
+        // Find indices of occurrences of string 'b' in 's'
+        for (int i = 0; i <= s.length() - b.length(); i++) {
+            if (s.substring(i, i + b.length()).equals(b)) {
+                indicesB.add(i);
+            }
         }
         
-        // Collections.sort();
+        List<Integer> beautifulIndices = new ArrayList<>();
         
-        List<Integer> ans = new ArrayList<Integer>();
-        
-        // System.out.println(se+" "+f);
-        i = 0;
-        n = f.size();
-        while(i < n){
-            int t = b(se, f.get(i)+k, i, k);
-            if(t  >= 0)
-                ans.add(f.get(i));
-            i++;
+        // Iterate through indices of 'a' occurrences
+        for (int i = 0; i < indicesA.size(); i++) {
+            int target = indicesA.get(i) + k;
+            
+            // Use binary search to find the closest index in 'b' occurrences
+            int closestIndexInB = binarySearchClosest(indicesB, target, k, i);
+            
+            if (closestIndexInB >=0 ) {
+                beautifulIndices.add(indicesA.get(i));
+            }
         }
         
-        return ans;
-        
+        return beautifulIndices;
     }
     
-    public int b(List<Integer> s, int tar, int i, int k){
-        int l = 0;
-        int r = s.size()-1;
-        int ans = -1;
-        while(l<=r){
-            int mid  = (l+r)/2;
+    // Binary search for finding the closest index in a sorted list
+    private int binarySearchClosest(List<Integer> sortedList, int target, int k, int i) {
+        int left = 0;
+        int right = sortedList.size() - 1;
+        int closestIndex = -1;
+        
+        while (left <= right) {
+            int mid = (left + right) / 2;
             
-            if(s.get(mid) <= tar)
-            {
-                ans = mid;
-                l = mid+1;
-            }else{
-                r = mid-1;
+            if (sortedList.get(mid) <= target) {
+                closestIndex = mid;
+                left = mid + 1;
+            } else {
+                right = mid - 1;
             }
-            
         }
-        if(ans == -1)
-            return -1;
         
-        // System.out.println(i+" "+tar+" "+s.get(ans)+" "+Math.abs(s.get(ans)-(tar-k))+" "+k);
-        return Math.abs(s.get(ans)-(tar-k)) <= k ? i : -1;
-        
+        // return closestIndex;
+                return closestIndex != -1 && Math.abs(sortedList.get(closestIndex)-(target-k)) <= k ? i : -1;
+
     }
 }
