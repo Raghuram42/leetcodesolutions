@@ -1,37 +1,55 @@
 class Solution {
-    
     Integer[][] dp;
+    
     public int minFallingPathSum(int[][] grid) {
-        dp = new Integer[201][201];
-        int ans = Integer.MAX_VALUE;
+        int n = grid.length;
+        dp = new Integer[n][n];
         
-        for(int i=0;i<grid.length;i++)
-            ans = Math.min(ans, s(grid, 0, i));
+        int minSum = Integer.MAX_VALUE;
         
-        return ans;
+        // Iterate through the first row of the grid
+        for (int i = 0; i < n; i++) {
+            minSum = Math.min(minSum, findMinPathSum(grid, 0, i));
+        }
+        
+        return minSum;
     }
     
-    public int s(int[][] m, int i, int j){
-        if(i<0 || j<0 || i>=m.length || j>=m.length)
-            return 0;
+    private int findMinPathSum(int[][] m, int row, int col) {
+        int n = m.length;
         
-        if(dp[i][j] != null)
-            return dp[i][j]; 
+        // Base case: If the current position is out of bounds, return 0
+        if (row < 0 || col < 0 || row >= n || col >= n) {
+            return 0;
+        }
+        
+        // If the result for this cell is already calculated, return it
+        if (dp[row][col] != null) {
+            return dp[row][col];
+        }
         
         int tmax = Integer.MAX_VALUE;
         int temp = -1;
-        if(i+1 < m.length){
-            temp = m[i+1][j];
-            m[i+1][j] = Integer.MAX_VALUE; 
+        
+        if (row + 1 < n) {
+            temp = m[row + 1][col];
+            m[row + 1][col] = Integer.MAX_VALUE;
         }
-        for(int k=0;k<m.length;k++){
-            if(i+1< m.length && m[i+1][k] != Integer.MAX_VALUE)
-                tmax = Math.min(tmax, s(m, i+1, k));
+        
+        // Iterate through the cells in the next row and find the minimum path sum
+        for (int k = 0; k < n; k++) {
+            if (row + 1 < n && m[row + 1][k] != Integer.MAX_VALUE) {
+                tmax = Math.min(tmax, findMinPathSum(m, row + 1, k));
+            }
         }
-        if(i+1 < m.length){
-            // temp = m[i+1][j];
-            m[i+1][j] = temp; 
+        
+        if (row + 1 < n) {
+            // Restore the original value of the cell
+            m[row + 1][col] = temp;
         }
-        return dp[i][j] = tmax == Integer.MAX_VALUE ? m[i][j] : tmax+m[i][j];
+        
+        // Calculate the minimum path sum for the current cell
+        dp[row][col] = (tmax == Integer.MAX_VALUE) ? m[row][col] : tmax + m[row][col];
+        return dp[row][col];
     }
 }
