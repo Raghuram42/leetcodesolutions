@@ -1,24 +1,17 @@
 class Solution {
-    Integer[][] dp;
     public int rob(int[] nums) {
         int n = nums.length;
-        dp  = new Integer[n][2];
+        if(n==1)
+            return nums[0];
+        if(n == 2)
+        return Math.max(nums[n-2], nums[n-1]);
         
-        return Math.max(s(nums, 0 , 0), s(nums, 0, 1));
-    }
-    
-    public int s(int[] nums, int i, int use){
-        if(i >= nums.length)
-            return 0;
-        
-        if(dp[i][use] != null)
-            return dp[i][use];
-        int ans = 0;
-        if(use == 1)
-            ans = nums[i] + s(nums, i+1, 0);
-        
-        return dp[i][use] = Math.max(ans, s(nums, i+1, 1));
+        nums[2] += nums[0];
+        for(int i=3;i<n;i++)
+        {
+            nums[i] += Math.max(nums[i-2],nums[i-3]); 
+        }
+        // System.out.println(Arrays.toString(nums));
+        return Math.max(nums[n-2], nums[n-1]);
     }
 }
-
-// [1,2,3,1]
