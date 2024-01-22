@@ -22,7 +22,7 @@ class Solution {
                 i++;
             }
             // System.out.
-            System.out.println(i+" "+bits+" "+prevmax+" "+min);
+            // System.out.println(i+" "+bits+" "+prevmax+" "+min);
 
             if(prevmax > min )
                 return false;
