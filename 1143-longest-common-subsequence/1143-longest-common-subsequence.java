@@ -15,8 +15,8 @@ class Solution {
         int with = 0;
         
         if(s.charAt(i) == d.charAt(j))
-            with = 1+sl(s, d, i+1, j+1);
+           return 1+sl(s, d, i+1, j+1);
         
-        return dp[i][j] = Math.max(with, Math.max(sl(s, d, i+1, j), sl(s, d, i, j+1)));
+        return dp[i][j] =  Math.max(sl(s, d, i+1, j), sl(s, d, i, j+1));
     }
 }
