@@ -1,22 +1,23 @@
 class Solution {
-    int[] dp;
+    Integer[][] dp;
     public int numSquares(int n) {
-        dp = new int[n+1];
-        return solve(n);
+        
+        dp = new Integer[101][n+1];   
+        return s(1, n);
     }
     
-    public int solve(int n){
-        if(n == 0)
+    public int s(int i,int sum){
+        if(sum == 0)
             return 0;
-        if(dp[n] != 0)
-            return dp[n];
-        int res = Integer.MAX_VALUE-1;
-        for(int i=1;i*i<=n;i++)
-            res = Math.min(res , 1+solve(n-i*i));
+        if(sum < 0 || i*i > sum)
+            return Integer.MAX_VALUE-1;
         
+        if(dp[i][sum] != null)
+            return dp[i][sum];
+        // System.out.println(i+" "+sq.get(i)+" "+sum);
+        int w = 1+s(i,  sum-i*i);
+        int wout = s(i+1, sum);
         
-        return dp[n] = res;
-        
-        
+        return dp[i][sum] = Math.min(w, wout);
     }
 }
