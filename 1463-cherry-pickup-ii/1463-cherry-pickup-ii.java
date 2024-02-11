@@ -15,9 +15,8 @@ class Solution {
         if(dp[r1x][r1y][r2y] != null)
             return dp[r1x][r1y][r2y];
         int ans = g[r1x][r1y];
-        int t1 = g[r1x][r1y];
-        int t2 = g[r2x][r2y];
-        ans += r1y == r2y ? 0 : t2;
+    
+        ans += r1y == r2y ? 0 : g[r1x][r2y];
         int tmax = 0;
         for(int k=0;k<3;k++){
             int x = dirs[k][0]+r1x;
@@ -30,11 +29,6 @@ class Solution {
                 tmax = Math.max(s(g, x, y, x1, y1), tmax);
             }
         }
-
-        
-                
-         g[r1x][r1y] = t1;
-         g[r2x][r2y] = t2;
         return dp[r1x][r1y][r2y] = ans+tmax;
         
         
