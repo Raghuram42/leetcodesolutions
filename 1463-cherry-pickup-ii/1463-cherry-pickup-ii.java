@@ -1,36 +1,50 @@
 class Solution {
-    int[][] dir = new int[][]{{1,-1}, {1,0},{1,1}};
-    int[][][] dp;
+    int[][] dirs = new int[][]{{1,-1},{1,0},{1,1}};
+    Integer[][][] dp;
     public int cherryPickup(int[][] grid) {
         int n = grid.length;
         int m = grid[0].length;
-        dp = new int[n][m][m];
+        dp = new Integer[71][71][71];
         
-        for(int i=0;i<n;i++)
-            for(int j=0;j<m;j++)
-                Arrays.fill(dp[i][j], -1);
-        return solve(grid, 0, 0, m-1);
+        return s(grid, 0,0, 0, m-1);
     }
-    public int solve(int[][] g, int i, int j1, int j2){
-        if(i<0 || i>=g.length || j1<0 || j1 >= g[0].length || j2 < 0 || j2 >= g[0].length)
+    
+    public int s(int[][] g, int r1x, int r1y, int r2x, int r2y){
+        if(r1x >= g.length || r1y >= g[0].length || r2x >= g.length || r2y >= g[0].length || r1x < 0 || r1y < 0 || r2x < 0 || r2y < 0)
             return 0;
-        if(dp[i][j1][j2] != -1) 
-            return dp[i][j1][j2];
-        int res = 0;
-        res = Math.max(res, solve(g, i+1, j1-1, j2-1));
-        res = Math.max(res, solve(g, i+1, j1-1, j2));
-        res = Math.max(res, solve(g, i+1, j1-1, j2+1));
+        if(dp[r1x][r1y][r2y] != null)
+            return dp[r1x][r1y][r2y];
+        int ans = g[r1x][r1y];
+        int t1 = g[r1x][r1y];
+        int t2 = g[r2x][r2y];
+        ans += r1y == r2y ? 0 : t2;
+        int tmax = 0;
+        for(int k=0;k<3;k++){
+            int x = dirs[k][0]+r1x;
+            int y = dirs[k][1]+r1y;
+
+            for(int p=0;p<3;p++){
+            int x1 = dirs[p][0]+r2x;
+            int y1 = dirs[p][1]+r2y;
+                
+                tmax = Math.max(s(g, x, y, x1, y1), tmax);
+            }
+        }
+
         
+                
+         g[r1x][r1y] = t1;
+         g[r2x][r2y] = t2;
+        return dp[r1x][r1y][r2y] = ans+tmax;
         
-        res = Math.max(res, solve(g, i+1, j1, j2));
-        res = Math.max(res, solve(g, i+1, j1, j2-1));
-        res = Math.max(res, solve(g, i+1, j1, j2+1));
-        
-        res = Math.max(res, solve(g, i+1, j1+1, j2+1));
-        res = Math.max(res, solve(g, i+1, j1+1, j2-1));
-        res = Math.max(res, solve(g, i+1, j1+1, j2));
-        
-        return dp[i][j1][j2] = res+(j1 == j2 ? g[i][j1] : g[i][j1]+g[i][j2]);
         
     }
+    public boolean safe(int x, int y, int[][] g){
+
+            if(x <0 || y < 0 || x >=g.length || y >= g[0].length)
+                return false;
+        return true;
+    }
+    
+    
 }
