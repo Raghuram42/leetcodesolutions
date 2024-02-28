@@ -14,44 +14,33 @@
  * }
  */
 class Solution {
-    class Side{
-        TreeNode r;
-        boolean left;
-        
-        Side(TreeNode r, boolean left){
-            this.r = r;
-            this.left = left;
-        }
-    }
     public int findBottomLeftValue(TreeNode root) {
         
-        List<Integer> li = new ArrayList<>();
+        int ans = 0;
         
-        Queue<Side> q = new LinkedList<>();
+        Queue<TreeNode> q = new LinkedList<>();
         
-        q.offer(new Side(root, true));
-        li.add(root.val);
+        q.offer(root);
         
         while(!q.isEmpty()){
             int sz = q.size();
             int or = q.size();
             while(sz > 0 ){
-                Side node = q.poll();
+                TreeNode node = q.poll();
                 
                     if(sz == or)
-                        li.set(0, node.r.val);
+                        ans = node.val;
+    
+                if(node.left != null)
+                    q.offer(node.left);
                 
-                
-                if(node.r.left != null)
-                    q.offer(new Side(node.r.left, true));
-                
-                  if(node.r.right != null)
-                    q.offer(new Side(node.r.right, node.r.left == null));
+                  if(node.right != null)
+                    q.offer(node.right);
                 sz--;
             }
             
         }
         
-        return li.get(0);
+        return ans;
     }
 }
