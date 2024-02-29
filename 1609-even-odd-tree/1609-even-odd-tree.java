@@ -30,22 +30,13 @@ class Solution {
             // int d = l%2 == 0 ? 1 : 0; 
             while(sz>0){
                 TreeNode curr = q.poll();
-                // System.out.println(first+" "+prev+" "+l+" "+curr.val);
                 if(first){
                     first = false;
                     prev = curr.val;
                     if(prev%2 == l%2)
                         return false;
-                }else if(curr.val%2 == 1 && l%2 == 0){
-                    if(prev < curr.val)
+                }else if(curr.val%2 != l%2 && ((l%2 == 0 && prev < curr.val) || (l%2 == 1 && prev > curr.val))){
                         prev = curr.val;
-                    else
-                        return false;
-                }else if(l%2 == 1 && curr.val%2 == 0){
-                    if(prev > curr.val)
-                        prev = curr.val;
-                    else
-                        return false;
                 }else
                     return false;
                 
