@@ -1,40 +1,46 @@
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        Deque<Integer> q = new LinkedList<>();
+        Deque<Integer> q = new ArrayDeque<>();
         
-        int i = 0;
+        
+        int st = 0;
+        int end = 0;
         int n = nums.length;
-        
-        while(i<k){
-            if(q.isEmpty() || nums[i] <= nums[q.peekLast()])
-                q.addLast(i);
-            else{
-                
-                while(!q.isEmpty() && nums[i] > nums[q.peekLast()])
-                    q.pollLast();
-                
-                q.addLast(i);
-            }
-            i++;
-        }
-        
         int[] res = new int[n-k+1];
-        while(i<n){
-            res[i-k] = nums[q.peekFirst()];
+        int ind = 0;
+        while(end<n){
+            // System.out.println(end+" "+q+" "+q.peek()+" "+(end-k));
+            if(end-st+1 <= k){
+                
+                while(!q.isEmpty() && nums[q.peekLast()] <= nums[end])
+                    q.removeLast();
+                
+                q.addLast(end);
+                
+            }else{
+                
+                res[ind++] = nums[q.peekFirst()];
+                while(!q.isEmpty() && q.peekFirst() <= end-k)
+                    q.removeFirst();
+                
+                while(!q.isEmpty() && nums[q.peekLast()] <= nums[end])
+                    q.removeLast();
+                
+                q.addLast(end);
+                st++;
+            }
             
-            if(q.peekFirst() <= i-k)
-                q.pollFirst();
-            
-            
-            while(!q.isEmpty() && nums[i] >= nums[q.peekLast()])
-                q.pollLast();
-            
-            q.addLast(i);
-            i++;
+            end++;      
         }
-        
-        res[i-k] = nums[q.peekFirst()];
+        res[ind++] = nums[q.peekFirst()];
         
         return res;
     }
 }
+
+// [1,3,1,2,0,5]
+// 3
+
+
+// 
+// [1,3,-1]
